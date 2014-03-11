@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10.3.2014, 14:43:46
+    Author     : Defu
+*/
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font: 12px arial;
+    margin: 0px;
+    
+}
+
+
+
+#upperpart {
+
+    background-color: #153450;
+    width: 100%;
+    height: 15%;
+    
+        
+}
+
+#logo {
+    padding: 10px;
+    font: bold 46px arial;
+    color: #F4D6BC;
+}
+
+#lowerpart {
+    background-color: #ffffff;
+    width: 100%;
+    height: 85%;
+}
+
+.menuwindow {
+    margin: 15px;
+    width: 250px;
+    height: 325px;
+    border-left: 2px solid #447294;
+    border-right: 2px solid #447294;
+    float: left;
+}
+.menuwindowtitle {
+    background-color: #447294;
+    font: bold 16px arial;
+    color: #FFFFFF;
+    padding: 5px;
+    
+}
+
+.menuwindowmiddle {
+    height: 255px;
+    background-color: #FFFFFF;
+    font: 12px arial;
+    color: #000000;
+    padding: 5px;
+    
+}
+
+.menuwindowbottom {
+    background-color: #447294;
+    font: bold 16px arial;
+    color: #FFFFFF;
+    padding: 5px;
+    
+}

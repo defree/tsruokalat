@@ -1,0 +1,142 @@
+[
+    {
+        "id": 0,
+        "nimi": "ICT",
+        "osoite": "{{ \"[object Object]\" tag is not supported }}",
+        "ketju": "Sodexo",
+        "menu": [
+            {
+                "paiva": "Maanantai",
+                "ruoka": "Kebakot, tomaattikastike"
+            },
+            {
+                "paiva": "Tiistai",
+                "ruoka": "Koskenlaskijan broileria"
+            },
+            {
+                "paiva": "Keskiviikko",
+                "ruoka": "Uunimakkara, muusi"
+            },
+            {
+                "paiva": "Torstai",
+                "ruoka": "Broileripyörykät, currykastike"
+            },
+            {
+                "paiva": "Perjantai",
+                "ruoka": "Tonnikalapasta"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "nimi": "Delica",
+        "osoite": "{{ \"[object Object]\" tag is not supported }}",
+        "ketju": "Unica",
+        "menu": [
+            {
+                "paiva": "Maanantai",
+                "ruoka": "Falafel kasvispyörykät, ruohosipulikermaviilikastike, keitetyt perunat"
+            },
+            {
+                "paiva": "Tiistai",
+                "ruoka": "Tomaattinen vuohenjuustokeitto, krutongit"
+            },
+            {
+                "paiva": "Keskiviikko",
+                "ruoka": "Kasvisgratiini, keitetyt perunat"
+            },
+            {
+                "paiva": "Torstai",
+                "ruoka": "kasvispihvit, keitetyt perunat, ananaskermaviilikastike"
+            },
+            {
+                "paiva": "Perjantai",
+                "ruoka": "Juustogratinoitu kasvispastavuoka"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nimi": "Mikro",
+        "osoite": "{{ \"[object Object]\" tag is not supported }}",
+        "ketju": "Unica",
+        "menu": [
+            {
+                "paiva": "Maanantai",
+                "ruoka": "Koskenlaskijan seitiä"
+            },
+            {
+                "paiva": "Tiistai",
+                "ruoka": "Jauheliha-makaroonilaatikko"
+            },
+            {
+                "paiva": "Keskiviikko",
+                "ruoka": "Vietnamilainen broilericurry*, riisiä"
+            },
+            {
+                "paiva": "Torstai",
+                "ruoka": "TexMex jauhelihakastiketta, riisiä"
+            },
+            {
+                "paiva": "Perjantai",
+                "ruoka": "Jauheliha-tomaattipannupizza"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nimi": "EuroCity",
+        "osoite": "{{ \"[object Object]\" tag is not supported }}",
+        "ketju": "Sodexo",
+        "menu": [
+            {
+                "paiva": "Maanantai",
+                "ruoka": "Kievin kanaa, appelsiinikastike ja riisi"
+            },
+            {
+                "paiva": "Tiistai",
+                "ruoka": "Kaalikääryleet ja puolukkasurvos"
+            },
+            {
+                "paiva": "Keskiviikko",
+                "ruoka": "Chili con carne jauhelihasta"
+            },
+            {
+                "paiva": "Torstai",
+                "ruoka": "Fish and chips ja sitruunamajoneesi"
+            },
+            {
+                "paiva": "Perjantai",
+                "ruoka": "Lammaspyörykät ja timjamikastike"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "nimi": "Old Mill",
+        "osoite": "{{ \"[object Object]\" tag is not supported }}",
+        "ketju": "Sodexo",
+        "menu": [
+            {
+                "paiva": "Maanantai",
+                "ruoka": "Tomaattiset lihapullat ja spagetti"
+            },
+            {
+                "paiva": "Tiistai",
+                "ruoka": "Paneroitu kampela tartar-kastikkeella"
+            },
+            {
+                "paiva": "Keskiviikko",
+                "ruoka": "Tandooriporsaanpaistia"
+            },
+            {
+                "paiva": "Torstai",
+                "ruoka": "Tariyaki-chilibroileria"
+            },
+            {
+                "paiva": "Perjantai",
+                "ruoka": "Sipuli-pannupihvi"
+            }
+        ]
+    }
+]
