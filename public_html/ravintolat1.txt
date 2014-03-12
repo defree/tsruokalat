@@ -1,0 +1,60 @@
+[
+    {
+        "id": 0,
+        "nimi": "ICT",
+        "osoite": "{{ \"[object Object]\" tag is not supported }}",
+        "ketju": "Sodexo",
+        "menu": [
+            {
+                "paiva": "Maanantai",
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
+            },
+            {
+                "paiva": "Tiistai",
+                       "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
+            },
+            {
+                "paiva": "Keskiviikko",
+                       "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
+            },
+            {
+                "paiva": "Torstai",
+                       "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
+            },
+            {
+                "paiva": "Perjantai",
+                       "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
+            }
+        ]
+    }
+]

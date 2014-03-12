@@ -7,23 +7,55 @@
         "menu": [
             {
                 "paiva": "Maanantai",
-                "ruoka": "Kebakot, tomaattikastike"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Tiistai",
-                "ruoka": "Koskenlaskijan broileria"
+                 "ruoka": [
+                            {"ruokalaji":"Koskenlaskijan broileria"},
+                            {"ruokalaji":"Kermainen kalakeitto"}, 
+                            {"ruokalaji":"Porsaanleike, pippurikastike"},
+                            {"ruokalaji":"Pinaattiohukaiset, kermaviilikastike"},
+                            {"ruokalaji":"Tonnikala wrap"},
+                            {"ruokalaji":"Valkosuklaamousse"}
+                        ]
             },
             {
                 "paiva": "Keskiviikko",
-                "ruoka": "Uunimakkara, muusi"
+                "ruoka": [
+                            {"ruokalaji":"Uunimakkara, muusi"},
+                            {"ruokalaji":"Broilerin fileepihvi, mustaherukkakastike"}, 
+                            {"ruokalaji":"Tomaattikeitto"},
+                            {"ruokalaji":"Kesäkurpitsa-tofuhöystö"},
+                            {"ruokalaji":"Broileri-pähkinäsalaatti"}
+                        ]
             },
             {
                 "paiva": "Torstai",
-                "ruoka": "Broileripyörykät, currykastike"
+                "ruoka": [
+                            {"ruokalaji":"Broileripyörykät, currykastike"},
+                            {"ruokalaji":"Hernekeitto"}, 
+                            {"ruokalaji":"Salamipizza"},
+                            {"ruokalaji":"Parsakaali-parmesanrisotto"},
+                            {"ruokalaji":"Kinkkupastasalaatti"},
+                            {"ruokalaji":"Pannukakku ja hillo"}
+                        ]
             },
             {
                 "paiva": "Perjantai",
-                "ruoka": "Tonnikalapasta"
+                "ruoka": [
+                            {"ruokalaji":"Tonnikalapasta"},
+                            {"ruokalaji":"Sveitsinleike"}, 
+                            {"ruokalaji":"Mozzarella salaatti"},
+                            {"ruokalaji":"Kasvis-soijatäytteinen tortilla"},
+                            {"ruokalaji":"Porkkanakeitto"}
+                        ]
             }
         ]
     },
@@ -35,23 +67,53 @@
         "menu": [
             {
                 "paiva": "Maanantai",
-                "ruoka": "Falafel kasvispyörykät, ruohosipulikermaviilikastike, keitetyt perunat"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Tiistai",
-                "ruoka": "Tomaattinen vuohenjuustokeitto, krutongit"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Keskiviikko",
-                "ruoka": "Kasvisgratiini, keitetyt perunat"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Torstai",
-                "ruoka": "kasvispihvit, keitetyt perunat, ananaskermaviilikastike"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Perjantai",
-                "ruoka": "Juustogratinoitu kasvispastavuoka"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             }
         ]
     },
@@ -63,23 +125,53 @@
         "menu": [
             {
                 "paiva": "Maanantai",
-                "ruoka": "Koskenlaskijan seitiä"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Tiistai",
-                "ruoka": "Jauheliha-makaroonilaatikko"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Keskiviikko",
-                "ruoka": "Vietnamilainen broilericurry*, riisiä"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Torstai",
-                "ruoka": "TexMex jauhelihakastiketta, riisiä"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Perjantai",
-                "ruoka": "Jauheliha-tomaattipannupizza"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             }
         ]
     },
@@ -91,23 +183,53 @@
         "menu": [
             {
                 "paiva": "Maanantai",
-                "ruoka": "Kievin kanaa, appelsiinikastike ja riisi"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Tiistai",
-                "ruoka": "Kaalikääryleet ja puolukkasurvos"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Keskiviikko",
-                "ruoka": "Chili con carne jauhelihasta"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Torstai",
-                "ruoka": "Fish and chips ja sitruunamajoneesi"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Perjantai",
-                "ruoka": "Lammaspyörykät ja timjamikastike"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             }
         ]
     },
@@ -119,23 +241,53 @@
         "menu": [
             {
                 "paiva": "Maanantai",
-                "ruoka": "Tomaattiset lihapullat ja spagetti"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Tiistai",
-                "ruoka": "Paneroitu kampela tartar-kastikkeella"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Keskiviikko",
-                "ruoka": "Tandooriporsaanpaistia"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Torstai",
-                "ruoka": "Tariyaki-chilibroileria"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             },
             {
                 "paiva": "Perjantai",
-                "ruoka": "Sipuli-pannupihvi"
+                "ruoka": [
+                            {"ruokalaji":"Kebakot, tomaattikastike"},
+                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
+                            {"ruokalaji":"Kikherne-kasviscurry"},
+                            {"ruokalaji":"Herkkusienikeitto"},
+                            {"ruokalaji":"Leipäjuustosalaatti"}
+                        ]
             }
         ]
     }
