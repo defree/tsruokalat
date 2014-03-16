@@ -13,30 +13,56 @@ body {
     color: #000000;
     font: 12px arial;
     margin: 0px;
-    
+    overflow-x:hidden;
+    overflow-y:auto;
 }
 
 
 
 #upperpart {
 
-    background-color: #153450;
+    background-color: #729fcf;
     width: 100%;
-    height: 15%;
+    height: 65px;
     
         
 }
 
 #logo {
-    padding: 10px;
-    font: bold 46px arial;
-    color: #F4D6BC;
+    padding-top: 7px;
+    padding-left: 5px;
+    float:left;
+}
+
+#paivat { 
+    padding-left: 100px;
+    float: left; 
+}
+
+#paivat a:link {
+    text-decoration:none;
+    
+}
+
+#paivat a:hover {
+    text-decoration:underline;
+}
+
+
+.paiva {
+    
+    padding-left: 15px;
+    padding-top: 25px;
+    color: #ffffff;
+    font: 14px arial;
+    float: left;
+
 }
 
 #lowerpart {
     background-color: #ffffff;
     width: 100%;
-    height: 85%;
+    height: 100%;
 }
 
 .menuwindow {
@@ -47,6 +73,7 @@ body {
     border-right: 2px solid #447294;
     float: left;
 }
+
 .menuwindowtitle {
     background-color: #447294;
     font: bold 16px arial;
@@ -56,18 +83,38 @@ body {
 }
 
 .menuwindowmiddle {
-    height: 255px;
+    height: 265px;
     background-color: #FFFFFF;
     font: 12px arial;
+    color: #000000;
+}
+
+.menuwindowbottom {
+
+    background-color: #447294;
+    font: bold 16px arial;
+    color: #FFFFFF;
+    padding: 5px;   
+}
+
+.menufooditem {
+    height: 20px;
+    background-color: #d1e6f6;
+    font: 14px arial;
     color: #000000;
     padding: 5px;
     
 }
 
-.menuwindowbottom {
-    background-color: #447294;
-    font: bold 16px arial;
-    color: #FFFFFF;
-    padding: 5px;
-    
+.ui-state-highlight {
+    margin: 15px;
+    width: 250px;
+    height: 325px;
+    float: left;
+}
+
+.ui-icon-custom { 
+    width: 16px; 
+    height: 16px; 
+    background-image: url(images/ui-icons_222222_256x240.png); 
 }
