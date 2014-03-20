@@ -144,10 +144,11 @@ body {
 
 .menufooditem {
     height: 20px;
-    background-color: #d1e6f6;
+    background-color: #ffffff;
     font: 14px arial;
     color: #000000;
     padding: 5px;
+    border-bottom: 1px dashed #444444;
     
 }
 

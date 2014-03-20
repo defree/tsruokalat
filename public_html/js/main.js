@@ -10,19 +10,23 @@ $( document ).ready(function() {
 
     var paiva = new Date().getDayName();
 
+    
+
     haeMenu(paiva);
 
 
-    /*
+    
     $(function() {
         $( "#lowerpart" ).sortable();
         $( "#lowerpart" ).disableSelection();
     });
-    */
+    
     
     $('a.paiva').on('click', function() {
         paiva = $(this).text();
         $('#lowerpart').empty();
+        
+        
         haeMenu(paiva);
     });
     
@@ -49,6 +53,16 @@ $( window ).load(function() {
         }
     });   
     
+    $('div.suosikit').on('click', function() {
+        
+        var keksit = $.cookie("fav");
+        
+        $('#lowerpart').empty();
+        
+        haeMenu(paiva,keksit);
+        
+    });
+    
 });
 
 
@@ -60,25 +74,28 @@ function haeMenu(paiva) {
 
     $.ajax({url: "ravintolat.txt"}).done(function(data){
         $.each($.parseJSON(data), function(idx, obj) {
+            
+                    
 
-            //alert(obj.nimi);
+                //alert(obj.nimi);
 
-            $.each((obj.menu), function(idx, obj2) {
-                //alert(obj2.paiva);
-                if (obj2.paiva === paiva) {menusisalto = haeRuoka(obj2);}
-            });
+                $.each((obj.menu), function(idx, obj2) {
+                    //alert(obj2.paiva);
+                    if (obj2.paiva === paiva) {menusisalto = haeRuoka(obj2);}
+                });
 
-            $('#lowerpart').append(
-                    '<div class="menuwindow">\n\
-                     <div class="menuwindowtop">\n\
-                        <div class="menuwindowtitle">' + obj.nimi      +'</div>\n\
-                        <div class="menuwindowfavourite"><span class="favclick ui-icon ui-icon-star">' + obj.id + '</span></div>\n\
-                     </div>\n\
-                     \n\
-                     <div class="menuwindowmiddle">'+ menusisalto   +'</div>\n\
-                     <div class="menuwindowbottom">'+ obj.ketju     +'</div></div>'
-            );
-            menusisalto = "";
+                $('#lowerpart').append(
+                        '<div class="menuwindow">\n\
+                         <div class="menuwindowtop">\n\
+                            <div class="menuwindowtitle">' + obj.nimi      +'</div>\n\
+                            <div class="menuwindowfavourite"><span class="favclick ui-icon ui-icon-star">' + obj.id + '</span></div>\n\
+                         </div>\n\
+                         \n\
+                         <div class="menuwindowmiddle">'+ menusisalto   +'</div>\n\
+                         <div class="menuwindowbottom">'+ obj.ketju     +'</div></div>'
+                );
+                menusisalto = "";
+            
         });
     });
 
