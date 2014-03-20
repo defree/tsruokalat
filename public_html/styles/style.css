@@ -59,6 +59,30 @@ body {
 
 }
 
+#suosikit { 
+    padding-right: 25px;
+    float: right; 
+}
+
+#suosikit div:hover {
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.kaikki {
+    padding-top: 5px;
+    color: #ffffff;
+    font: 14px arial;
+
+}
+
+.suosikki {
+    margin-top: 5px;    
+    color: #ffffff;
+    font: 14px arial;
+
+}
+
 #lowerpart {
     background-color: #ffffff;
     width: 100%;
@@ -74,12 +98,33 @@ body {
     float: left;
 }
 
+.menuwindowid { 
+    display: none;
+}
+
+.menuwindowtop{
+    background-color: #447294;
+    height: 30px;
+}
+
 .menuwindowtitle {
+
+    font: bold 16px arial;
+    color: #FFFFFF;
+    padding: 5px;
+    float:left;
+}
+
+.menuwindowfavourite {
     background-color: #447294;
     font: bold 16px arial;
     color: #FFFFFF;
     padding: 5px;
-    
+    float: right;
+}
+
+.favourite {
+
 }
 
 .menuwindowmiddle {

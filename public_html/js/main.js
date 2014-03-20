@@ -1,28 +1,58 @@
+Date.prototype.getDayName = function() {
+    var d = ['Sunnuntai','Maanantai','Tiistai','Keskiviikko','Torstai','Perjantai','Lauantai'];
+    return d[this.getDay()];
+};
+
+
+
+
 $( document ).ready(function() {
 
     var paiva = new Date().getDayName();
 
     haeMenu(paiva);
 
+
+    /*
     $(function() {
         $( "#lowerpart" ).sortable();
         $( "#lowerpart" ).disableSelection();
     });
-    
+    */
     
     $('a.paiva').on('click', function() {
         paiva = $(this).text();
         $('#lowerpart').empty();
         haeMenu(paiva);
     });
+    
+
 
 });
 
+$( window ).load(function() { 
+    
+    $("div").on('click', "span", function() {
+        //alert($(this).text());
+        
+        var cookies = $.cookie("fav");
+        var newcookie = $(this).text();
+        
 
-Date.prototype.getDayName = function() {
-    var d = ['Sunnuntai','Maanantai','Tiistai','Keskiviikko','Torstai','Perjantai','Lauantai'];
-    return d[this.getDay()];
-};
+        
+        if (!cookies) { 
+            $.cookie("fav", newcookie); 
+        }
+        
+        else if(cookies.indexOf(newcookie) === -1) {
+            $.cookie("fav", cookies + newcookie);
+        }
+    });   
+    
+});
+
+
+
 
 function haeMenu(paiva) {
 
@@ -40,9 +70,13 @@ function haeMenu(paiva) {
 
             $('#lowerpart').append(
                     '<div class="menuwindow">\n\
-                     <div class="menuwindowtitle">' + obj.nimi      +'</div>\n\
+                     <div class="menuwindowtop">\n\
+                        <div class="menuwindowtitle">' + obj.nimi      +'</div>\n\
+                        <div class="menuwindowfavourite"><span class="favclick ui-icon ui-icon-star">' + obj.id + '</span></div>\n\
+                     </div>\n\
+                     \n\
                      <div class="menuwindowmiddle">'+ menusisalto   +'</div>\n\
-                     <div class="menuwindowbottom">'+ obj.ketju     +'</div>'
+                     <div class="menuwindowbottom">'+ obj.ketju     +'</div></div>'
             );
             menusisalto = "";
         });
