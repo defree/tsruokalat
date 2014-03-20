@@ -22,10 +22,14 @@ $( document ).ready(function() {
     });
     
     
-    $('a.paiva').on('click', function() {
+    $('#paivat').on('click', 'a',function() {
+        
+        $('#paivat').css("font-weight","normal");
+        
         paiva = $(this).text();
         $('#lowerpart').empty();
         
+        $(this).css("font-weight","bold");
         
         haeMenu(paiva);
     });

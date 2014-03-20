@@ -48,15 +48,19 @@ body {
     text-decoration:underline;
 }
 
+#paivat a:active {
+    text-decoration:underline;
+    font-weight: bold;
+}
 
-.paiva {
+#paivat a{
     
     padding-left: 15px;
     padding-top: 25px;
     color: #ffffff;
     font: 14px arial;
     float: left;
-
+    font-weight: inherit;
 }
 
 #suosikit { 
