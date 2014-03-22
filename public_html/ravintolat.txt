@@ -8,53 +8,319 @@
             {
                 "paiva": "Maanantai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Parsakaali-juustokala, tilli-kermaviilikastike",
+							 "title_en":"Broccoli-cheese fish",
+							 "title_se":"Fisk med broccoli och ost",
+							 "category":"Lounas",
+							 "price":"1,60 \/ 3,80 \/ 7,55",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Ratatouille",
+							 "title_en":"Ratatouille",
+							 "title_se":"Ratatouille",
+							 "category":"Kasvislounas",
+							 "price":"2,05 \/ 4,25 \/ 7,55",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Porsaanleike, herkkusienikastike",
+							 "title_en":"Pork schnitzel",
+							 "title_se":"Grisschnitzel",
+							 "category":"Special",
+							 "price":"4,70 \/ 7,05 \/ 7,55",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Mustajuurisosekeitto",
+							 "title_en":"Black salsify pure soup",
+							 "title_se":"Svartrotspuresoppa",
+							 "category":"Kasvislounas",
+							 "price":"1,00 \/ 3,20 \/ 7,55",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kalkkunasalaatti",
+							 "title_en":"Turkey salad",
+							 "title_se":"Kalkonsallad",
+							 "category":"Salaatti",
+							 "price":"1,60 \/ 3,80 \/ 7,55",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Tiistai",
                  "ruoka": [
-                            {"ruokalaji":"Koskenlaskijan broileria"},
-                            {"ruokalaji":"Kermainen kalakeitto"}, 
-                            {"ruokalaji":"Porsaanleike, pippurikastike"},
-                            {"ruokalaji":"Pinaattiohukaiset, kermaviilikastike"},
-                            {"ruokalaji":"Tonnikala wrap"},
-                            {"ruokalaji":"Valkosuklaamousse"}
+						  {
+							 "title_fi":"Liha-makaronilaatikko",
+							 "title_en":"Minced meat casserole (beef)",
+							 "title_se":"Maletk\u00f6ttl\u00e5da",
+							 "category":"Lounas",
+							 "price":"1,60 \/ 3,80 \/ 7,55",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kasvispapukroketit, jugurttikastike",
+							 "title_en":"Vegetable and bean croquettes",
+							 "title_se":"Gr\u00f6nsaks-och b\u00f6nkroketter",
+							 "category":"Kasvislounas",
+							 "price":"2,05 \/ 4,25 \/ 7,55",
+							 "properties":"G, L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kampelafilee, tartarkastike",
+							 "title_en":"Flounder",
+							 "title_se":"Flundra",
+							 "category":"Special",
+							 "price":"4,70 \/ 7,05 \/ 7,55",
+							 "properties":"L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Parsakaalisosekeitto",
+							 "title_en":"Broccoli pure soup",
+							 "title_se":"Broccolipuresoppa",
+							 "category":"Kasvislounas",
+							 "price":"1,00 \/ 3,20 \/ 7,55",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Mangomousse",
+							 "title_en":"Mango mousse",
+							 "title_se":"Mangomousse",
+							 "category":"J\u00e4lkiruoka",
+							 "price":"1,00 \/ 1,00 \/ 1,00",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Paahtopaisti patonki",
+							 "title_en":"Roost beef baquette",
+							 "title_se":"Rostbiffbatong",
+							 "category":"Lounas",
+							 "price":"2,45 \/ 4,75 \/ 7,55",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Keskiviikko",
                 "ruoka": [
-                            {"ruokalaji":"Uunimakkara, muusi"},
-                            {"ruokalaji":"Broilerin fileepihvi, mustaherukkakastike"}, 
-                            {"ruokalaji":"Tomaattikeitto"},
-                            {"ruokalaji":"Kesäkurpitsa-tofuhöystö"},
-                            {"ruokalaji":"Broileri-pähkinäsalaatti"}
+						  {
+							 "title_fi":"Possua sweet&amp;amp;amp;amp;sour",
+							 "title_en":"Pork sweet&amp;sour",
+							 "title_se":"Gris i s\u00f6tsurs\u00e5s",
+							 "category":"Lounas",
+							 "price":"1,60 \/ 3,80 \/ 7,55",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kasvis-perunacurry",
+							 "title_en":"Vegetable and potatoes curry",
+							 "title_se":"Gr\u00f6nsaks-och potatocurry",
+							 "category":"Kasvislounas",
+							 "price":"2,05 \/ 4,25 \/ 7,55",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Broilerin filee, barbequekastike",
+							 "title_en":"Chicken filee",
+							 "title_se":"Kycklingfilee",
+							 "category":"Special",
+							 "price":"4,70 \/ 7,05 \/ 7,55",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Purjo-perunasosekeitto",
+							 "title_en":"Leek and potato pure soup",
+							 "title_se":"Purjopotatispuresoppa",
+							 "category":"Kasvislounas",
+							 "price":"1,00 \/ 3,20 \/ 7,55",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Pasta-lohisalaatti",
+							 "title_en":"Salmon and pasta salad",
+							 "title_se":"Lax-och pastasallad",
+							 "category":"Salaatti",
+							 "price":"1,60 \/ 3,80 \/ 7,55",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Torstai",
                 "ruoka": [
-                            {"ruokalaji":"Broileripyörykät, currykastike"},
-                            {"ruokalaji":"Hernekeitto"}, 
-                            {"ruokalaji":"Salamipizza"},
-                            {"ruokalaji":"Parsakaali-parmesanrisotto"},
-                            {"ruokalaji":"Kinkkupastasalaatti"},
-                            {"ruokalaji":"Pannukakku ja hillo"}
+						  {
+							 "title_fi":"Makkarakastike",
+							 "title_en":"Sausage sauce",
+							 "title_se":"Korvs\u00e5s",
+							 "category":"Lounas",
+							 "price":"1,60 \/ 3,80 \/ 7,55",
+							 "properties":"M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kasvismoussaka",
+							 "title_en":"Vegetable moussaka",
+							 "title_se":"Gr\u00f6nsaksmoussaka",
+							 "category":"Kasvislounas",
+							 "price":"2,05 \/ 4,25 \/ 7,55",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Lammaspy\u00f6ryk\u00e4t, yrttikastike",
+							 "title_en":"Lamb balls",
+							 "title_se":"Lammbullar",
+							 "category":"Special",
+							 "price":"4,70 \/ 7,05 \/ 7,55",
+							 "properties":"M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Intialainen kalakeitto",
+							 "title_en":"Indian style fish soup",
+							 "title_se":"Indisk fisksoppa",
+							 "category":"Lounas",
+							 "price":"1,60 \/ 3,80 \/ 7,55",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Broilersalaatti",
+							 "title_en":"Chicken salad",
+							 "title_se":"Kycklingsallad",
+							 "category":"Salaatti",
+							 "price":"1,60 \/ 3,80 \/ 7,55",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Mansikkarahka",
+							 "title_en":"Strawberry quark",
+							 "title_se":"Jordgubbekvarg",
+							 "category":"J\u00e4lkiruoka",
+							 "price":"1,00 \/ 1,00 \/ 1,00",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Perjantai",
                 "ruoka": [
-                            {"ruokalaji":"Tonnikalapasta"},
-                            {"ruokalaji":"Sveitsinleike"}, 
-                            {"ruokalaji":"Mozzarella salaatti"},
-                            {"ruokalaji":"Kasvis-soijatäytteinen tortilla"},
-                            {"ruokalaji":"Porkkanakeitto"}
+						  {
+							 "title_fi":"Broilerpuikula, currykastike",
+							 "title_en":"Chicken patty",
+							 "title_se":"Kycklingbiff",
+							 "category":"Lounas",
+							 "price":"1,60 \/ 3,80 \/ 7,55",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Soija-kasvislasagnette",
+							 "title_en":"Soy and vegetable lasagnette",
+							 "title_se":"Soja-och gr\u00f6nsakslasagnette",
+							 "category":"Kasvislounas",
+							 "price":"2,05 \/ 4,25 \/ 7,55",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Katkarapu-parsakaaliwok",
+							 "title_en":"Shrimp amd broccoli wok",
+							 "title_se":"R\u00e4k-och broccoliwok",
+							 "category":"Special",
+							 "price":"4,70 \/ 7,05 \/ 7,55",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Palsternakkakeitto",
+							 "title_en":"Parsnip pure soup",
+							 "title_se":"Palsternackapuresoppa",
+							 "category":"Kasvislounas",
+							 "price":"1,00 \/ 3,20 \/ 7,55",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Katkarapusalaatti",
+							 "title_en":"Shrimp salad",
+							 "title_se":"R\u00e4ksallad",
+							 "category":"Salaatti",
+							 "price":"1,60 \/ 3,80 \/ 7,55",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             }
         ]
@@ -68,51 +334,262 @@
             {
                 "paiva": "Maanantai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Uunimakkara, perunasose",
+							 "price":"8,20 \/ 9,20",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Savulohipasta",
+							 "price":"8,20 \/ 9,20",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kasvisbouillabaisse ja salad garden",
+							 "price":"8,20 \/ 9,20",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kotijuusto-tai tonnikalasalaatti",
+							 "price":"6,60",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kasvisbouillabaisse ja leip\u00e4",
+							 "price":"6,10",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"J\u00e4\u00e4tel\u00f6",
+							 "price":"1,30",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Tiistai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Kukkoa viiniss\u00e4, riisi",
+							 "price":"8,20 \/ 9,20",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Pinaattiohukaiset, puolukkasurvos",
+							 "price":"8,20 \/ 9,20",
+							 "properties":"VL",
+							 "desc_fi":"Saatavilla maidottomana.",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kev\u00e4tsipuli-perunasosekeitto ja salad garden",
+							 "price":"8,20 \/ 9,20",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Vuohenjuusto-tai katkarapusalaatti",
+							 "price":"6,60",
+							 "properties":"G",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kev\u00e4tsipuli-perunasosekeitto ja leip\u00e4",
+							 "price":"6,10",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Paahtovanukas",
+							 "price":"1,30",
+							 "properties":"G",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Keskiviikko",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Silakkapihvit, perunasose, tilli-kermaviilikastike",
+							 "price":"8,20 \/ 9,20",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Hampurilainen, ranskalaiset perunat, chilimajoneesi",
+							 "price":"8,20 \/ 9,20",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Punajuurisosekeitto ja salad garden",
+							 "price":"8,20 \/ 9,20",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Caesar-salaatti broilerilla",
+							 "price":"6,60",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Punajuurisosekeitto ja leip\u00e4",
+							 "price":"6,10",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Banaanilassi",
+							 "price":"1,30",
+							 "properties":"G",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Torstai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Jauhelihak\u00e4\u00e4ryleet, tomaattikastike",
+							 "price":"8,20 \/ 9,20",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Siskonmakkarakeitto",
+							 "price":"8,20 \/ 9,20",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Chilinen bataatti-kookoskeitto ja salad garden",
+							 "price":"8,20 \/ 9,20",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kalkkuna-tai fetasalaatti",
+							 "price":"6,60",
+							 "properties":"G",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Chilinen bataatti-kookoskeitto ja leip\u00e4",
+							 "price":"6,10",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Marjakiisseli",
+							 "price":"1,30",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Perjantai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Kalkkunaa Cordon Bleu, currymajoneesi",
+							 "price":"8,20 \/ 9,20",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Feta-kasvispiirakka",
+							 "price":"8,20 \/ 9,20",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Ranskalainen sipulikeitto ja salad garden",
+							 "price":"8,20 \/ 9,20",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Paahtopaisti-tai leip\u00e4juustosalaatti",
+							 "price":"6,60",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Ranskalainen sipulikeitto ja leip\u00e4",
+							 "price":"6,10",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Sitruunakakkua ja kahvi",
+							 "price":"1,30",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             }
         ]
@@ -126,51 +603,196 @@
             {
                 "paiva": "Maanantai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Lammaspy\u00f6ryk\u00e4t, perunasose, kermaviilikastike",
+							 "title_en":"Mutton balls, mashed potatoes, sour cream sauce",
+							 "category":"Scandinavian",
+							 "price":"4,95 \/ 6,20",
+							 "properties":"L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Linssi-kasvispata, riisi",
+							 "title_en":"Lentill-vegetable stew, rice",
+							 "category":"Vegetarian",
+							 "price":"4,00 \/ 6,20",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Porkkana-savujuustokeitto",
+							 "title_en":"Smoked cheese carrot soup",
+							 "category":"Soup",
+							 "price":"4,30 \/ 5,20",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Tiistai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Kebabkiusaus",
+							 "title_en":"Creamy kebab potato casserole",
+							 "category":"Scandinavian",
+							 "price":"4,95 \/ 6,20",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Pinaattiohukaiset, puolukkahillo",
+							 "title_en":"Spinash patties, lingonberry jam",
+							 "category":"Vegetarian",
+							 "price":"4,95 \/ 6,20",
+							 "properties":"L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kasvis-borssikeitto",
+							 "title_en":"Vegetable-borsh soup",
+							 "category":"Soup",
+							 "price":"4,30 \/ 5,20",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Keskiviikko",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Broilerinugetit, currykastike, riisi",
+							 "title_en":"Chicken nuggets, currysauce, rice",
+							 "category":"Global",
+							 "price":"4,95 \/ 6,20",
+							 "properties":"L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Tofucurry, riisi",
+							 "title_en":"Tofucurry, rice",
+							 "category":"Vegetarian",
+							 "price":"4,95 \/ 6,20",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kes\u00e4kurpitsa-vuohenjuustokeitto",
+							 "title_en":"Zucchini-chevre soup",
+							 "category":"Soup",
+							 "price":"4,30 \/ 5,20",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Torstai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Kashmiri lammaspata, riisi",
+							 "title_en":"Kashmiri mutton stew, sour cream sauce, rice",
+							 "category":"Global",
+							 "price":"4,95 \/ 6,20",
+							 "properties":"G, L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kasvispasta",
+							 "title_en":"Vegetable pasta",
+							 "category":"Vegetarian",
+							 "price":"4,95 \/ 6,20",
+							 "properties":"M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Pinaattikeitto, kananmuna",
+							 "title_en":"Spinash soup",
+							 "category":"Soup",
+							 "price":"4,30 \/ 5,20",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Perjantai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Mets\u00e4st\u00e4j\u00e4n leike",
+							 "title_en":"Pork schnitzel with mushroom sauce",
+							 "category":"Scandinavian",
+							 "price":"9,80",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Shepherds pie",
+							 "title_en":"Shepherds pie",
+							 "category":"Global",
+							 "price":"9,80",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kev\u00e4tk\u00e4\u00e4ryleet",
+							 "title_en":"Spring rolls",
+							 "category":"Vegetarian",
+							 "price":"9,80",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Bataattikeitto ja p\u00e4iv\u00e4n salaatti",
+							 "title_en":"Sweet potato soup and salad",
+							 "category":"Salad garden & Soup",
+							 "price":"9,80",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Puolukka-kinuskirahka",
+							 "title_en":"Lingonberry and caramel quark",
+							 "category":"Sweet",
+							 "price":"0,85",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             }
         ]
@@ -184,51 +806,307 @@
             {
                 "paiva": "Maanantai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Silakkapihvit ja tilliperunat",
+							 "title_en":"Double fillets of baltic herrings",
+							 "category":"Classic",
+							 "price":"7,70",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"L\u00e4mmin texmex-salaatti",
+							 "title_en":"Tex mex salad",
+							 "category":"Grill",
+							 "price":"8,60",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kinkku-herkkusienipizza",
+							 "title_en":"Ham and mushroom pizza",
+							 "category":"Pizza",
+							 "price":"7,70",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Parsakaalisosekeitto",
+							 "title_en":"Pur\u00e9ed broccoli soup",
+							 "category":"Soup",
+							 "price":"5,10",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Hedelm\u00e4riisi",
+							 "title_en":"Fruity rice dessert",
+							 "category":"Sweet",
+							 "price":"1,10",
+							 "properties":"G, L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Tiistai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Ylikyps\u00e4\u00e4 porsaan kasleria ja bbq-kastike",
+							 "title_en":"Pork Kassler with bbq sauce",
+							 "category":"Classic",
+							 "price":"7,70",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kalkkunan lehtipihvi ja mangokastike",
+							 "title_en":"Turkey fillet with mango sauce",
+							 "category":"Grill",
+							 "price":"11,90",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kebab-sipulipizza",
+							 "title_en":"Kebab and onion pizza",
+							 "category":"Pizza",
+							 "price":"7,70",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Palsternakkasosekeitto",
+							 "title_en":"Pureed parsnip soup",
+							 "category":"Soup",
+							 "price":"5,10",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Salaattip\u00f6yt\u00e4 (Palvikinkku tai Vuohenjuusto )",
+							 "title_en":"Salad buff\u00e9",
+							 "category":"Salad garden & Soup",
+							 "price":"6,60",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Suklaavaahto",
+							 "title_en":"Chocolate mousse",
+							 "category":"Sweet",
+							 "price":"1,10",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Keskiviikko",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Lindstr\u00f6min pihvit ja sinappikastike",
+							 "title_en":"Ground meat patties a la Lindstr\u00f6m",
+							 "category":"Classic",
+							 "price":"7,70",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Sweet and sour broilerwokki",
+							 "title_en":"Chicken stir fry sweet and sour",
+							 "category":"Wok",
+							 "price":"8,60",
+							 "properties":"M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Mozzarella-tomaatti-oliivipizza",
+							 "title_en":"Mozzarella, olive and tomato pizza",
+							 "category":"Pizza",
+							 "price":"7,70",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Paprikakeitto",
+							 "title_en":"Sweet pepper soup",
+							 "category":"Soup",
+							 "price":"5,10",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Salaattip\u00f6yt\u00e4 (Katkarapu tai Feta)",
+							 "category":"Salad garden & Soup",
+							 "price":"6,60",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Hedelm\u00e4jogurtti",
+							 "title_en":"Fruit yogurt",
+							 "category":"Sweet",
+							 "price":"1,10",
+							 "properties":"G, L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Torstai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Broilerin filee, riisi ja currykastike",
+							 "title_en":"Chicken fillet with curry sauce and rice",
+							 "category":"Classic",
+							 "price":"7,70",
+							 "properties":"G, L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Salamipasta",
+							 "title_en":"Pasta with spicy salami sauce",
+							 "category":"Grill",
+							 "price":"8,60",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Tonnikala-katkarapupizza",
+							 "title_en":"Tunafish and shrimp pizza",
+							 "category":"Pizza",
+							 "price":"7,70",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Hernekeitto ja sipuli",
+							 "title_en":"Pea soup with onion",
+							 "category":"Soup",
+							 "price":"5,10",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Salaattip\u00f6yt\u00e4 (Briejuusto tai Minipy\u00f6rryk\u00e4t)",
+							 "title_en":"Salad buffe",
+							 "category":"Salad garden & Soup",
+							 "price":"6,60",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Pannukakku ja hillo ",
+							 "title_en":"Pancake with jam",
+							 "category":"Sweet",
+							 "price":"1,10",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Perjantai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"H\u00e4r\u00e4nlihapata ja riisi ",
+							 "title_en":"Beef stew with rice",
+							 "category":"Classic",
+							 "price":"7,70",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Hampurilainen, bbq-majoneesi ja ranskalaiset",
+							 "title_en":"Hamburger with bbq-mayonnaise and french fries",
+							 "category":"Grill",
+							 "price":"10,30",
+							 "properties":"L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Broiler-ananas-aurajuustopizza",
+							 "title_en":"Chicken, pineapple and blue cheese pizza",
+							 "category":"Pizza",
+							 "price":"7,70",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Sipulikeitto ",
+							 "title_en":"Onion soup",
+							 "category":"Soup",
+							 "price":"5,10",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Salaattip\u00f6yt\u00e4 (Leip\u00e4juusto tai Broiler)",
+							 "title_en":"Salad buffet",
+							 "category":"Salad garden & Soup",
+							 "price":"6,60",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Eskimo-j\u00e4\u00e4tel\u00f6",
+							 "title_en":"Ice cream",
+							 "category":"Sweet",
+							 "price":"1,00",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             }
         ]
@@ -242,51 +1120,321 @@
             {
                 "paiva": "Maanantai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Keitetyt nakit ja perunasose",
+							 "category":"Scandinavian",
+							 "price":"8,85",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Perunar\u00f6stit feta-aurinkotomaattikastikkeella",
+							 "category":"Vegetarian",
+							 "price":"8,85",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Pasta Salmone",
+							 "category":"Kitchen",
+							 "price":"9,05",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kasvis-minestronekeitto",
+							 "category":"Salad garden & Soup",
+							 "price":"6,95",
+							 "properties":"M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Palvikinkku- M, G tai Mozzarella-salaatti VL, G",
+							 "category":"Salad garden & Soup",
+							 "price":"7,95",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Mustikkarahka",
+							 "category":"Sweet",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Opiskelijat: Keitetyt nakit ja perunasose tai Perunar\u00f6stit feta-aurinkotomaattikastikkeella",
+							 "price":"2,60",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Tiistai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Kaalilaatikko",
+							 "category":"Scandinavian",
+							 "price":"8,85",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Munakoisovuoka",
+							 "category":"Vegetarian",
+							 "price":"8,85",
+							 "properties":"M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Grillattu lohi choronkastikkeella",
+							 "category":"Kitchen",
+							 "price":"9,65",
+							 "properties":"G, L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kukkakaali-parsakaalikeitto",
+							 "category":"Salad garden & Soup",
+							 "price":"6,95",
+							 "properties":"G, L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kalkkuna- M, G tai Emmental-juustosalaatti L, G",
+							 "category":"Salad garden & Soup",
+							 "price":"7,95",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Vadelmakiisseli",
+							 "category":"Sweet",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Opiskelijat: Kaalilaatikko tai Munakoisovuoka",
+							 "price":"2,60",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Keskiviikko",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Jauheliha-Chili con carne",
+							 "category":"Scandinavian",
+							 "price":"8,85",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Fetajuustolla t\u00e4ytetty paprika",
+							 "category":"Vegetarian",
+							 "price":"8,85",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"L\u00e4mmin kalkkuna-waldorf -salaatti",
+							 "category":"Kitchen",
+							 "price":"9,65",
+							 "properties":"G, L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kes\u00e4kurpitsa-vuohenjuustokeitto",
+							 "category":"Salad garden & Soup",
+							 "price":"6,95",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kotijuusto- VL, G tai Rapusilakka-salaatti M, G",
+							 "category":"Salad garden & Soup",
+							 "price":"7,95",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Suklaakiisseli",
+							 "category":"Sweet",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Opiskelijat: Chili con carne tai Fetajuustolla t\u00e4ytetty paprika",
+							 "price":"2,60",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Torstai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Rapusilakat tilli-kermaviilikastikkeella",
+							 "category":"Scandinavian",
+							 "price":"8,85",
+							 "properties":"G, L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kikherne-kasviscurry jogurttiraidalla",
+							 "category":"Vegetarian",
+							 "price":"8,85",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Pariloitu porsaanfilepihvi punaviinikastikkeella",
+							 "category":"Kitchen",
+							 "price":"9,65",
+							 "properties":"G, L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kasvisborssikeitto",
+							 "category":"Salad garden & Soup",
+							 "price":"6,95",
+							 "properties":"G, M",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Feta- VL, G tai H\u00e4r\u00e4nrinta-salaatti M, G",
+							 "category":"Salad garden & Soup",
+							 "price":"7,95",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Vadelmarahka",
+							 "category":"Sweet",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Opiskelijat: Rapusilakat tilli-kermaviilikastikkeella tai Kikherne-kasviscurry jogurttiraidalla",
+							 "price":"2,60",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             },
             {
                 "paiva": "Perjantai",
                 "ruoka": [
-                            {"ruokalaji":"Kebakot, tomaattikastike"},
-                            {"ruokalaji":"Uunilohi, remouladekastike"}, 
-                            {"ruokalaji":"Kikherne-kasviscurry"},
-                            {"ruokalaji":"Herkkusienikeitto"},
-                            {"ruokalaji":"Leipäjuustosalaatti"}
+						  {
+							 "title_fi":"Broilerpy\u00f6ryk\u00e4t omenakastikkeella",
+							 "category":"Scandinavian",
+							 "price":"8,85",
+							 "properties":"L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Mustapapuburrito",
+							 "category":"Vegetarian",
+							 "price":"8,85",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Kebab-pizza",
+							 "category":"Kitchen",
+							 "price":"9,05",
+							 "properties":"VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Porkkanasosekeitto ",
+							 "category":"Salad garden & Soup",
+							 "price":"6,95",
+							 "properties":"G, L",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Tonnikala- M, G tai Brie-juusto -salaatti L, G",
+							 "category":"Salad garden & Soup",
+							 "price":"7,95",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Marianne-mousse",
+							 "category":"Sweet",
+							 "properties":"G, VL",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  },
+						  {
+							 "title_fi":"Opiskelijat: Broilerpy\u00f6ryk\u00e4t omenakastikkeella tai Mustapapuburrito",
+							 "price":"2,60",
+							 "desc_fi":"",
+							 "desc_en":"",
+							 "desc_se":""
+						  }
                         ]
             }
         ]

@@ -125,7 +125,7 @@ function haeRuoka(obj2){
     var paivaruoka = "";
     
     $.each((obj2.ruoka), function(idx, obj3) {
-        paivaruoka = paivaruoka + '<div class="menufooditem">'  + obj3.ruokalaji    +'</div>';
+        paivaruoka = paivaruoka + '<div class="menufooditem">'  + obj3.title_fi    +'</div>';
     });
 
     menusisalto = menusisalto   + paivaruoka;
