@@ -10,10 +10,7 @@ $( document ).ready(function() {
 
     var paiva = new Date().getDayName();
 
-    
-
     haeMenu(paiva);
-
 
     
     $(function() {
@@ -33,9 +30,24 @@ $( document ).ready(function() {
         
         haeMenu(paiva);
     });
-    
-
-
+	
+	 $(function() {
+    	$('#rinfo').dialog({
+      		autoOpen: false,
+      		show: {
+        		effect: 'blind',
+        		duration: 500
+      		},
+      		hide: {
+        		effect: 'explode',
+        		duration: 500
+      		}
+    	});
+ 
+    	$('#lowerpart').on('click', '#popopen', function() {
+      		$( '#rinfo' ).dialog( 'open' );
+    	});
+  	});
 });
 
 $( window ).load(function() { 
@@ -92,6 +104,7 @@ function haeMenu(paiva) {
                         '<div class="menuwindow">\n\
                          <div class="menuwindowtop">\n\
                             <div class="menuwindowtitle">' + obj.nimi      +'</div>\n\
+							<button id="popopen">Tiedot</button>\n\
                             <div class="menuwindowfavourite"><span class="favclick ui-icon ui-icon-star">' + obj.id + '</span></div>\n\
                          </div>\n\
                          \n\
@@ -120,6 +133,5 @@ function haeRuoka(obj2){
     paivaruoka = "";
     
     return menusisalto;
-    
-
+   
 }
