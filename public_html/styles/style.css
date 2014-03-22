@@ -119,6 +119,24 @@ body {
     float:left;
 }
 
+.menuwindowtitle a {
+	font: bold 16px arial;
+    color: #FFFFFF;
+}
+
+.menuwindowtitle a:link {
+	text-decoration:none;
+}
+
+.menuwindowtitle a:hover {
+	text-decoration:underline;
+}
+
+.menuwindowtitle a:visited {
+	font: bold 16px arial;
+    color: #FFFFFF;
+}
+
 .menuwindowfavourite {
     background-color: #447294;
     font: bold 16px arial;

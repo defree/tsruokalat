@@ -12,7 +12,6 @@ $( document ).ready(function() {
 
     haeMenu(paiva);
 
-    
     $(function() {
         $( "#lowerpart" ).sortable();
         $( "#lowerpart" ).disableSelection();
@@ -44,8 +43,16 @@ $( document ).ready(function() {
       		}
     	});
  
-    	$('#lowerpart').on('click', '#popopen', function() {
-      		$( '#rinfo' ).dialog( 'open' );
+    	$('#lowerpart').on('click', 'a', function() {
+			$('#rinfo').empty();
+			target = $(this).text();
+			$.ajax({url: "ravintolat.txt"}).done(function(data){
+        		$.each($.parseJSON(data), function(idx, obj) {
+					if (obj.nimi === target) { ytiedot = haeYhteystiedot( obj ); }
+				});
+			});
+      		$('#rinfo').dialog( 'open' );
+			$('#rinfo').append('<p>' + ytiedot + '</p>');
     	});
   	});
 });
@@ -81,9 +88,6 @@ $( window ).load(function() {
     
 });
 
-
-
-
 function haeMenu(paiva) {
 
     var menusisalto = "";
@@ -91,8 +95,6 @@ function haeMenu(paiva) {
     $.ajax({url: "ravintolat.txt"}).done(function(data){
         $.each($.parseJSON(data), function(idx, obj) {
             
-                    
-
                 //alert(obj.nimi);
 
                 $.each((obj.menu), function(idx, obj2) {
@@ -103,8 +105,7 @@ function haeMenu(paiva) {
                 $('#lowerpart').append(
                         '<div class="menuwindow">\n\
                          <div class="menuwindowtop">\n\
-                            <div class="menuwindowtitle">' + obj.nimi      +'</div>\n\
-							<button id="popopen">Tiedot</button>\n\
+                            <div class="menuwindowtitle"><a href="#">' + obj.nimi + '</a></div>\n\
                             <div class="menuwindowfavourite"><span class="favclick ui-icon ui-icon-star">' + obj.id + '</span></div>\n\
                          </div>\n\
                          \n\
@@ -115,9 +116,27 @@ function haeMenu(paiva) {
             
         });
     });
-
 }
 
+function haeYhteystiedot(obj) {
+	var yhteystiedot = "";
+    osoite = "";
+    puh = "";
+	email = "";
+	
+    $.each((obj.yhteystiedot), function(idx, obj2) {
+		yhteystiedot = 	'<div class="ytitem">' + obj2.osoite + '</div>' + 
+						'<div class="ytitem">' + obj2.puh + '</div>' + 
+						'<div class="ytitem">' + obj2.email + '</div>' + 
+						'<div class="ytitem">' + obj2.aukioloajat + '</div>' +
+						'<div class="ytitem">' + obj2.lounasajat + '</div>';
+    });
+
+    osoite = "";
+    puh = "";
+	email = "";
+    return yhteystiedot; 
+}
 
 function haeRuoka(obj2){
     
@@ -133,5 +152,4 @@ function haeRuoka(obj2){
     paivaruoka = "";
     
     return menusisalto;
-   
 }

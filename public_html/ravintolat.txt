@@ -2,7 +2,15 @@
     {
         "id": 0,
         "nimi": "ICT",
-        "osoite": "{{ \"[object Object]\" tag is not supported }}",
+	"yhteystiedot": [
+				{
+					"osoite":"Osoite: Joukahaisenkatu 3, 20520 Turku",
+					"puh":"Puh: 050 593 5936",
+					"email":"Email: ict.FMS.FI@sodexo.com",
+					"aukioloajat":"Aukioloajat: Ma-To 07.45-17.00 / Pe 07.45-15.00 / La-Su suljettu",
+					"lounasajat":"Lounasajat: Ma-To 10.30-14.30 / Pe 14.00 / La-Su suljettu"
+				}
+			],
         "ketju": "Sodexo",
         "menu": [
             {
@@ -328,7 +336,15 @@
     {
         "id": 1,
         "nimi": "Delica",
-        "osoite": "{{ \"[object Object]\" tag is not supported }}",
+        "yhteystiedot": [
+				{
+					"osoite":"Osoite: Itäinen Pitkäkatu 4 (Pharma City), 20520 Turku",
+					"puh":"Puh: 02 241 0120",
+					"email":"Email: pharma@unica.fi",
+					"aukioloajat":"Ma-To 07.30-15.00 / Pe 7.30-14.30",
+					"lounasajat":"Ma-To 10.15-14.30 / Pe 10.15-14.00"
+				}
+			],
         "ketju": "Unica",
         "menu": [
             {
@@ -597,7 +613,15 @@
     {
         "id": 2,
         "nimi": "Mikro",
-        "osoite": "{{ \"[object Object]\" tag is not supported }}",
+        "yhteystiedot": [
+				{
+					"osoite":"Osoite: Kiinanmyllynkatu 13, 20520 Turku",
+					"puh":"Puh: 02 231 0871",
+					"email":"Email: mikro@unica.fi",
+					"aukioloajat":"Ma-To 08.00-14.30 / Pe 08.00-14.00",
+					"lounasajat":"Ma-To 10.30-14.00 / Pe 10.30-14.00"
+				}
+			],
         "ketju": "Unica",
         "menu": [
             {
@@ -800,7 +824,15 @@
     {
         "id": 3,
         "nimi": "EuroCity",
-        "osoite": "{{ \"[object Object]\" tag is not supported }}",
+        "yhteystiedot": [
+				{
+					"osoite":"Osoite: Joukahaisenkatu 1, 20520 Turku",
+					"puh":"Puh: 050 415 5002",
+					"email":"Email: eurocity@sodexo.fi",
+					"aukioloajat":"Ma-Pe 08.00-13.30",
+					"lounasajat":"Ma-Pe 11.00-13.00"
+				}
+			],
         "ketju": "Sodexo",
         "menu": [
             {
@@ -1114,7 +1146,15 @@
     {
         "id": 4,
         "nimi": "Old Mill",
-        "osoite": "{{ \"[object Object]\" tag is not supported }}",
+        "yhteystiedot": [
+				{
+					"osoite":"Osoite: Ruukinkatu 2-4, 20540 Turku",
+					"puh":"Puh: 02 6510 0272",
+					"email":"Email: oldmill@sodexo.fi",
+					"aukioloajat":"Ma-Pe 08.00-16.00",
+					"lounasajat":"Ma-To 10.45-13.15 / Pe 10.45-13.00"
+				}
+			],
         "ketju": "Sodexo",
         "menu": [
             {
