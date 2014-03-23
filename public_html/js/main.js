@@ -4,33 +4,34 @@ Date.prototype.getDayName = function() {
 };
 
 
+$( document ).ready(function() { 
 
+    var paiva = new Date().getDayName(); //Hae tämä päivä
+    
+    if (paiva === "Lauantai" || paiva === "Sunnuntai") { //Jos lauantai tai sunnuntai niin päivä on maanantai
+        paiva = "Maanantai";
+    }
+    
+    haeMenu(paiva); //Hae ruokalistat
 
-$( document ).ready(function() {
-
-    var paiva = new Date().getDayName();
-
-    haeMenu(paiva);
-
-    $(function() {
+    $(function() {  //Muuta ruokaikkunat liikutettaviksi
         $( "#lowerpart" ).sortable();
         $( "#lowerpart" ).disableSelection();
     });
     
-    
-    $('#paivat').on('click', 'a',function() {
+    $('#paivat').on('click', 'a',function() { //Vaihda päivä, muuta boldausta
         
-        $('#paivat').css("font-weight","normal");
+        $('#paivat').children().css("font-weight","normal");
+             
         
         paiva = $(this).text();
         $('#lowerpart').empty();
-        
-        $(this).css("font-weight","bold");
-        
+
         haeMenu(paiva);
     });
+
 	
-	 $(function() {
+    $(function() {
     	$('#rinfo').dialog({
       		autoOpen: false,
       		show: {
@@ -47,7 +48,7 @@ $( document ).ready(function() {
 			$('#rinfo').empty();
 			target = $(this).text();
 			$.ajax({url: "ravintolat.txt"}).done(function(data){
-        		$.each($.parseJSON(data), function(idx, obj) {
+                            $.each($.parseJSON(data), function(idx, obj) {
 					if (obj.nimi === target) { ytiedot = haeYhteystiedot( obj ); }
 				});
 			});
@@ -59,13 +60,11 @@ $( document ).ready(function() {
 
 $( window ).load(function() { 
     
-    $("div").on('click', "span", function() {
+    $("div").on('click', "span", function() { //Suosikkikeksit
         //alert($(this).text());
         
-        var cookies = $.cookie("fav");
+        var cookies = $.cookie("fav");  
         var newcookie = $(this).text();
-        
-
         
         if (!cookies) { 
             $.cookie("fav", newcookie); 
@@ -86,11 +85,21 @@ $( window ).load(function() {
         
     });
     
+
+    
+
+    
 });
 
 function haeMenu(paiva) {
 
     var menusisalto = "";
+    
+    var paivaclass = '.paiva_'+paiva.toLowerCase();
+    
+    //alert(paivaclass);
+    
+    $(paivaclass).css("font-weight","bold");
 
     $.ajax({url: "ravintolat.txt"}).done(function(data){
         $.each($.parseJSON(data), function(idx, obj) {

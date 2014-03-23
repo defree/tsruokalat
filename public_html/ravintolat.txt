@@ -16,60 +16,60 @@
             {
                 "paiva": "Maanantai",
                 "ruoka": [
-						  {
-							 "title_fi":"Parsakaali-juustokala, tilli-kermaviilikastike",
-							 "title_en":"Broccoli-cheese fish",
-							 "title_se":"Fisk med broccoli och ost",
-							 "category":"Lounas",
-							 "price":"1,60 \/ 3,80 \/ 7,55",
-							 "desc_fi":"",
-							 "desc_en":"",
-							 "desc_se":""
-						  },
-						  {
-							 "title_fi":"Ratatouille",
-							 "title_en":"Ratatouille",
-							 "title_se":"Ratatouille",
-							 "category":"Kasvislounas",
-							 "price":"2,05 \/ 4,25 \/ 7,55",
-							 "properties":"G, M",
-							 "desc_fi":"",
-							 "desc_en":"",
-							 "desc_se":""
-						  },
-						  {
-							 "title_fi":"Porsaanleike, herkkusienikastike",
-							 "title_en":"Pork schnitzel",
-							 "title_se":"Grisschnitzel",
-							 "category":"Special",
-							 "price":"4,70 \/ 7,05 \/ 7,55",
-							 "properties":"VL",
-							 "desc_fi":"",
-							 "desc_en":"",
-							 "desc_se":""
-						  },
-						  {
-							 "title_fi":"Mustajuurisosekeitto",
-							 "title_en":"Black salsify pure soup",
-							 "title_se":"Svartrotspuresoppa",
-							 "category":"Kasvislounas",
-							 "price":"1,00 \/ 3,20 \/ 7,55",
-							 "properties":"G, VL",
-							 "desc_fi":"",
-							 "desc_en":"",
-							 "desc_se":""
-						  },
-						  {
-							 "title_fi":"Kalkkunasalaatti",
-							 "title_en":"Turkey salad",
-							 "title_se":"Kalkonsallad",
-							 "category":"Salaatti",
-							 "price":"1,60 \/ 3,80 \/ 7,55",
-							 "properties":"G, M",
-							 "desc_fi":"",
-							 "desc_en":"",
-							 "desc_se":""
-						  }
+                            {
+                                   "title_fi":"Parsakaali-juustokala, tilli-kermaviilikastike",
+                                   "title_en":"Broccoli-cheese fish",
+                                   "title_se":"Fisk med broccoli och ost",
+                                   "category":"Lounas",
+                                   "price":"1,60 \/ 3,80 \/ 7,55",
+                                   "desc_fi":"",
+                                   "desc_en":"",
+                                   "desc_se":""
+                            },
+                            {
+                                   "title_fi":"Ratatouille",
+                                   "title_en":"Ratatouille",
+                                   "title_se":"Ratatouille",
+                                   "category":"Kasvislounas",
+                                   "price":"2,05 \/ 4,25 \/ 7,55",
+                                   "properties":"G, M",
+                                   "desc_fi":"",
+                                   "desc_en":"",
+                                   "desc_se":""
+                            },
+                            {
+                                   "title_fi":"Porsaanleike, herkkusienikastike",
+                                   "title_en":"Pork schnitzel",
+                                   "title_se":"Grisschnitzel",
+                                   "category":"Special",
+                                   "price":"4,70 \/ 7,05 \/ 7,55",
+                                   "properties":"VL",
+                                   "desc_fi":"",
+                                   "desc_en":"",
+                                   "desc_se":""
+                            },
+                            {
+                                   "title_fi":"Mustajuurisosekeitto",
+                                   "title_en":"Black salsify pure soup",
+                                   "title_se":"Svartrotspuresoppa",
+                                   "category":"Kasvislounas",
+                                   "price":"1,00 \/ 3,20 \/ 7,55",
+                                   "properties":"G, VL",
+                                   "desc_fi":"",
+                                   "desc_en":"",
+                                   "desc_se":""
+                            },
+                            {
+                                   "title_fi":"Kalkkunasalaatti",
+                                   "title_en":"Turkey salad",
+                                   "title_se":"Kalkonsallad",
+                                   "category":"Salaatti",
+                                   "price":"1,60 \/ 3,80 \/ 7,55",
+                                   "properties":"G, M",
+                                   "desc_fi":"",
+                                   "desc_en":"",
+                                   "desc_se":""
+                            }
                         ]
             },
             {
@@ -338,7 +338,7 @@
         "nimi": "Delica",
         "yhteystiedot": [
 				{
-					"osoite":"Osoite: Itäinen Pitkäkatu 4 (Pharma City), 20520 Turku",
+					"osoite":"Osoite: Itï¿½inen Pitkï¿½katu 4 (Pharma City), 20520 Turku",
 					"puh":"Puh: 02 241 0120",
 					"email":"Email: pharma@unica.fi",
 					"aukioloajat":"Ma-To 07.30-15.00 / Pe 7.30-14.30",
