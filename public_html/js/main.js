@@ -3,7 +3,6 @@ Date.prototype.getDayName = function() {
     return d[this.getDay()];
 };
 
-
 $( document ).ready(function() { 
 
     var paiva = new Date().getDayName(); //Hae tämä päivä
@@ -16,9 +15,9 @@ $( document ).ready(function() {
 
     $(function() {  //Muuta ruokaikkunat liikutettaviksi
         $( "#lowerpart" ).sortable();
-        $( "#lowerpart" ).disableSelection();
-    });
-    
+		$( "#lowerpart" ).disableSelection();
+	});
+	
     $('#paivat').on('click', 'a',function() { //Vaihda päivä, muuta boldausta
         
         $('#paivat').children().css("font-weight","normal"); 
@@ -28,19 +27,25 @@ $( document ).ready(function() {
 
         haeMenu(paiva);
     });
-
-    $(function() {
+	
+	
+	
+	 $(function() { //JQueryUI dialogin asetukset. Liittyy lisätietoikkunaan.
     	$('#rinfo').dialog({
             autoOpen: false,
-            show: {
-                    effect: 'blind',
-                    duration: 200
-            },
-            hide: {
-                    effect: 'blind',
-                    duration: 200
-            }
-        });
+			maxWidth: 450,
+            maxHeight: 250,
+            width: 450,
+            height: 250,
+      		show: {
+        		effect: 'blind',
+        		duration: 200
+      		},
+      		hide: {
+        		effect: 'blind',
+        		duration: 200
+      		}
+    	});
 
     	$('#lowerpart').on('click', 'a', function(e) {
             var ytiedot = "";
@@ -58,7 +63,6 @@ $( document ).ready(function() {
                 $('#rinfo').append('<p>' + ytiedot + '</p>');	
                 $('#rinfo').dialog('open');
             });
-
     	})
     });
     
@@ -82,10 +86,10 @@ $( document ).ready(function() {
             cookies = cookies.replace(newcookie,""); //Poistetaan id keksistä jos se esiintyy siellä, aka suosikin poisto.
             $.cookie("fav", cookies);
         }
+
     });
     
     $('#suosikit').on('click', function(e) {
-        
         var keksit = $.cookie("fav");
         
         $('#lowerpart').empty();
@@ -97,6 +101,7 @@ $( document ).ready(function() {
             haeSuosikkiMenu();
         }
     }); 
+
 });
 
 function haeMenu(paiva) {
@@ -113,7 +118,7 @@ function haeMenu(paiva) {
     //alert(paivaclass);
     
     $(paivaclass).css("font-weight","bold");
-
+	
     $.ajax({url: "ravintolat.txt"}).done(function(data){
         $.each($.parseJSON(data), function(idx, obj) {
             
@@ -134,7 +139,7 @@ function haeMenu(paiva) {
                 $('#lowerpart').append(
                         '<div class="menuwindow">\n\
                          <div class="menuwindowtop">\n\
-                            <div class="menuwindowtitle"><a href="#">' + obj.nimi + '</a></div>\n\
+                            <div title="Näytä lisätiedot" class="menuwindowtitle"><a href="#">' + obj.nimi + '</a></div>\n\
                             <div title="Lisää suosikkeihin" class="menuwindowfavourite"><span id="favourite-button" class="favourite-button '+keksiclass+'">' + obj.id + '</span></div>\n\
                          </div>\n\
                          \n\
@@ -142,7 +147,6 @@ function haeMenu(paiva) {
                          <div class="menuwindowbottom">'+ obj.ketju     +'</div></div>'
                 );
                 menusisalto = "";
-            
         });
     });
 }
@@ -187,10 +191,7 @@ function haeSuosikkiMenu() {
 
 function haeYhteystiedot(obj) {
 	var yhteystiedot = "";
-    osoite = "";
-    puh = "";
-	email = "";
-	
+	    
     $.each((obj.yhteystiedot), function(idx, obj2) {
 		yhteystiedot = 	'<div class="ytitem">' + obj2.osoite + '</div>' + 
 						'<div class="ytitem">' + obj2.puh + '</div>' + 
@@ -199,9 +200,6 @@ function haeYhteystiedot(obj) {
 						'<div class="ytitem">' + obj2.lounasajat + '</div>';
     });
 
-    osoite = "";
-    puh = "";
-	email = "";
     return yhteystiedot; 
 }
 
@@ -214,7 +212,7 @@ function haeRuoka(obj2){
         paivaruoka = paivaruoka + '<div class="menufooditem">'  + obj3.title_fi    +'</div>';
     });
 
-    menusisalto = menusisalto   + paivaruoka;
+    menusisalto = menusisalto + paivaruoka;
 
     paivaruoka = "";
     

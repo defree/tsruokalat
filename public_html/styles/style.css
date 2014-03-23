@@ -139,7 +139,7 @@ body {
 }
 
 .menuwindowtitle a:hover {
-    text-decoration:underline;
+	text-decoration:none;
 }
 
 .menuwindowtitle a:visited {
@@ -206,6 +206,12 @@ body {
 
 .favourite-button.icon-on {
     background-image: url(star_on_16.png);
+}
+
+.ytitem {
+	font: arial;
+	padding: 5px;
+    border-bottom: 1px dashed #bbbbbb;
 }
 
 .ui-state-highlight {
