@@ -43,16 +43,22 @@ $( document ).ready(function() {
         });
 
     	$('#lowerpart').on('click', 'a', function(e) {
+            //var ytiedot = "";
+            
             target = $(this).text();
+            
+            $('#rinfo').empty();
+            $('#rinfo').dialog("option", { position: [e.pageX+5, e.pageY+5] });
+            
             $.ajax({url: "ravintolat.txt"}).done(function(data){
                 $.each($.parseJSON(data), function(idx, obj) {
                             if (obj.nimi === target) { ytiedot = haeYhteystiedot( obj ); }
                 });
+                
+                $('#rinfo').append('<p>' + ytiedot + '</p>');	
+                $('#rinfo').dialog('open');
             });
-            $('#rinfo').empty();
-            $('#rinfo').append('<p>' + ytiedot + '</p>');	
-            $('#rinfo').dialog("option", { position: [e.pageX+5, e.pageY+5] });
-            $('#rinfo').dialog('open');
+
     	})
     });
     
