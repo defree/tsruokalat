@@ -43,7 +43,7 @@ $( document ).ready(function() {
         });
 
     	$('#lowerpart').on('click', 'a', function(e) {
-            //var ytiedot = "";
+            var ytiedot = "";
             
             target = $(this).text();
             
