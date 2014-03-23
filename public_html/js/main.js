@@ -30,40 +30,32 @@ $( document ).ready(function() {
         haeMenu(paiva);
     });
 
-	
-    $(function() {
-        
-        var ytiedot = "";
-        
-        $('#lowerpart').on('click', 'a', function() {
-            $('#rinfo').empty();
-                target = $(this).text();
-                $.ajax({url: "ravintolat.txt"}).done(function(data){
-                    $.each($.parseJSON(data), function(idx, obj) {
-                        if (obj.nimi === target) { ytiedot = haeYhteystiedot( obj ); }
-                    });
-                });
-            
-            $('#rinfo').dialog( 'open' );
-            $('#rinfo').append('<p>' + ytiedot + '</p>');
-			
-    	});
-        
-        
+	 $(function() {
     	$('#rinfo').dialog({
-            autoOpen: false,
-            show: {
-                    effect: 'blind',
-                    duration: 500
-            },
-            hide: {
-                    effect: 'explode',
-                    duration: 500
-            }
-        });
- 
+      		autoOpen: false,
+      		show: {
+        		effect: 'blind',
+        		duration: 200
+      		},
+      		hide: {
+        		effect: 'blind',
+        		duration: 200
+      		}
+    	});
 
-    });
+    	$('#lowerpart').on('click', 'a', function(e) {
+			target = $(this).text();
+			$.ajax({url: "ravintolat.txt"}).done(function(data){
+        		$.each($.parseJSON(data), function(idx, obj) {
+					if (obj.nimi === target) { ytiedot = haeYhteystiedot( obj ); }
+				});
+			});
+			$('#rinfo').empty();
+      		$('#rinfo').append('<p>' + ytiedot + '</p>');	
+			$('#rinfo').dialog("option", { position: [e.pageX+5, e.pageY+5] });
+			$('#rinfo').dialog('open');
+    	})
+  	});
 });
 
 $( window ).load(function() { 
