@@ -170,6 +170,23 @@ body {
     
 }
 
+.favorite-button {
+	width: 16px;
+	height: 16px;
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.favorite-button.icon-off {
+	background-image: url(star_off_16.png);
+}
+
+.favorite-button.icon-on {
+	background-image: url(star_on_16.png);
+}
+
 .ui-state-highlight {
     margin: 15px;
     width: 250px;
