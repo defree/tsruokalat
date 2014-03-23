@@ -63,8 +63,8 @@ $( window ).load(function() {
     $("div").on('click', "span", function() { //Suosikkikeksit
         //alert($(this).text());
         
-		this.classList.toggle("icon-off");
-		this.classList.toggle("icon-on");
+        this.classList.toggle("icon-off");
+        this.classList.toggle("icon-on");
 		
         var cookies = $.cookie("fav");  
         var newcookie = $(this).text();
@@ -118,7 +118,7 @@ function haeMenu(paiva) {
                         '<div class="menuwindow">\n\
                          <div class="menuwindowtop">\n\
                             <div class="menuwindowtitle"><a href="#">' + obj.nimi + '</a></div>\n\
-                            <div class="menuwindowfavourite"><span id="favorite-button" class="favorite-button icon-off">' + obj.id + '</span></div>\n\
+                            <div title="Lisää suosikkeihin" class="menuwindowfavourite"><span id="favourite-button" class="favourite-button icon-off">' + obj.id + '</span></div>\n\
                          </div>\n\
                          \n\
                          <div class="menuwindowmiddle">'+ menusisalto   +'</div>\n\
