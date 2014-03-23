@@ -21,8 +21,7 @@ $( document ).ready(function() {
     
     $('#paivat').on('click', 'a',function() { //Vaihda päivä, muuta boldausta
         
-        $('#paivat').children().css("font-weight","normal");
-             
+        $('#paivat').children().css("font-weight","normal"); 
         
         paiva = $(this).text();
         $('#lowerpart').empty();
@@ -30,35 +29,32 @@ $( document ).ready(function() {
         haeMenu(paiva);
     });
 
-	 $(function() {
+    $(function() {
     	$('#rinfo').dialog({
-      		autoOpen: false,
-      		show: {
-        		effect: 'blind',
-        		duration: 200
-      		},
-      		hide: {
-        		effect: 'blind',
-        		duration: 200
-      		}
-    	});
+            autoOpen: false,
+            show: {
+                    effect: 'blind',
+                    duration: 200
+            },
+            hide: {
+                    effect: 'blind',
+                    duration: 200
+            }
+        });
 
     	$('#lowerpart').on('click', 'a', function(e) {
-			target = $(this).text();
-			$.ajax({url: "ravintolat.txt"}).done(function(data){
-        		$.each($.parseJSON(data), function(idx, obj) {
-					if (obj.nimi === target) { ytiedot = haeYhteystiedot( obj ); }
-				});
-			});
-			$('#rinfo').empty();
-      		$('#rinfo').append('<p>' + ytiedot + '</p>');	
-			$('#rinfo').dialog("option", { position: [e.pageX+5, e.pageY+5] });
-			$('#rinfo').dialog('open');
+            target = $(this).text();
+            $.ajax({url: "ravintolat.txt"}).done(function(data){
+                $.each($.parseJSON(data), function(idx, obj) {
+                            if (obj.nimi === target) { ytiedot = haeYhteystiedot( obj ); }
+                });
+            });
+            $('#rinfo').empty();
+            $('#rinfo').append('<p>' + ytiedot + '</p>');	
+            $('#rinfo').dialog("option", { position: [e.pageX+5, e.pageY+5] });
+            $('#rinfo').dialog('open');
     	})
-  	});
-});
-
-$( window ).load(function() { 
+    });
     
     $("div").on('click', "span", function() { //Suosikkikeksit
         //alert($(this).text());
@@ -73,11 +69,17 @@ $( window ).load(function() {
             $.cookie("fav", newcookie); 
         }
         
-        else if(cookies.indexOf(newcookie) === -1) {
-            $.cookie("fav", cookies + newcookie);
+        if(cookies.indexOf(newcookie) === -1) {
+            $.cookie("fav", cookies + newcookie); //Lisätään uusi id keksiin
+        }
+        else {
+            
         }
     });   
-    
+});
+
+$( window ).load(function() { 
+
     $('div.suosikit').on('click', function() {
         
         var keksit = $.cookie("fav");
@@ -86,12 +88,7 @@ $( window ).load(function() {
         
         haeMenu(paiva,keksit);
         
-    });
-    
-
-    
-
-    
+    }); 
 });
 
 function haeMenu(paiva) {
