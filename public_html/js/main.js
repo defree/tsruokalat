@@ -101,7 +101,10 @@ $( window ).load(function() {
 function haeMenu(paiva) {
 
     var menusisalto = "";
+    
     var keksit = $.cookie("fav");
+    
+    if (keksit === undefined) {keksit = '';}
     
     var keksiclass = '';
     var paivaclass = '.paiva_'+paiva.toLowerCase();
