@@ -73,7 +73,8 @@ $( document ).ready(function() {
             $.cookie("fav", cookies + newcookie); //Lisätään uusi id keksiin
         }
         else {
-            
+            cookies = cookies.replace(newcookie,""); //Poistetaan id keksistä jos se esiintyy siellä, aka suosikin poisto.
+            $.cookie("fav", cookies);
         }
     });   
 });
@@ -94,7 +95,9 @@ $( window ).load(function() {
 function haeMenu(paiva) {
 
     var menusisalto = "";
+    var keksit = $.cookie("fav");
     
+    var keksiclass = '';
     var paivaclass = '.paiva_'+paiva.toLowerCase();
     
     //alert(paivaclass);
@@ -105,7 +108,14 @@ function haeMenu(paiva) {
         $.each($.parseJSON(data), function(idx, obj) {
             
                 //alert(obj.nimi);
-
+                
+                if(keksit.indexOf(obj.id) !== -1) {
+                    keksiclass = 'icon-on';
+                }
+                else {
+                   keksiclass = 'icon-off'; 
+                }
+                
                 $.each((obj.menu), function(idx, obj2) {
                     //alert(obj2.paiva);
                     if (obj2.paiva === paiva) {menusisalto = haeRuoka(obj2);}
@@ -115,7 +125,7 @@ function haeMenu(paiva) {
                         '<div class="menuwindow">\n\
                          <div class="menuwindowtop">\n\
                             <div class="menuwindowtitle"><a href="#">' + obj.nimi + '</a></div>\n\
-                            <div title="Lisää suosikkeihin" class="menuwindowfavourite"><span id="favourite-button" class="favourite-button icon-off">' + obj.id + '</span></div>\n\
+                            <div title="Lisää suosikkeihin" class="menuwindowfavourite"><span id="favourite-button" class="favourite-button '+keksiclass+'">' + obj.id + '</span></div>\n\
                          </div>\n\
                          \n\
                          <div class="menuwindowmiddle">'+ menusisalto   +'</div>\n\
