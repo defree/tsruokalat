@@ -32,30 +32,38 @@ $( document ).ready(function() {
 
 	
     $(function() {
+        
+        var ytiedot = "";
+        
+        $('#lowerpart').on('click', 'a', function() {
+            $('#rinfo').empty();
+                target = $(this).text();
+                $.ajax({url: "ravintolat.txt"}).done(function(data){
+                    $.each($.parseJSON(data), function(idx, obj) {
+                        if (obj.nimi === target) { ytiedot = haeYhteystiedot( obj ); }
+                    });
+                });
+            
+            $('#rinfo').dialog( 'open' );
+            $('#rinfo').append('<p>' + ytiedot + '</p>');
+			
+    	});
+        
+        
     	$('#rinfo').dialog({
-      		autoOpen: false,
-      		show: {
-        		effect: 'blind',
-        		duration: 500
-      		},
-      		hide: {
-        		effect: 'explode',
-        		duration: 500
-      		}
-    	});
+            autoOpen: false,
+            show: {
+                    effect: 'blind',
+                    duration: 500
+            },
+            hide: {
+                    effect: 'explode',
+                    duration: 500
+            }
+        });
  
-    	$('#lowerpart').on('click', 'a', function() {
-			$('#rinfo').empty();
-			target = $(this).text();
-			$.ajax({url: "ravintolat.txt"}).done(function(data){
-                            $.each($.parseJSON(data), function(idx, obj) {
-					if (obj.nimi === target) { ytiedot = haeYhteystiedot( obj ); }
-				});
-			});
-      		$('#rinfo').dialog( 'open' );
-			$('#rinfo').append('<p>' + ytiedot + '</p>');
-    	});
-  	});
+
+    });
 });
 
 $( window ).load(function() { 
