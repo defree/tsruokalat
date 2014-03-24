@@ -14,7 +14,22 @@ $( document ).ready(function() {
     haeMenu(paiva); //Hae ruokalistat
 
     $(function() {  //Muuta ruokaikkunat liikutettaviksi
-        $( "#lowerpart" ).sortable();
+		$( "#lowerpart" ).sortable();
+		$( "#lowerpart" ).on("sortupdate",function( event, ui ) {
+			  var lajiteltu = $( this ).sortable( "serialize");
+			  console.log(lajiteltu);
+			  localStorage.setItem('lajiteltu', lajiteltu) ;
+		});
+		
+		if(localStorage.getItem("lajiteltu") !== null){
+		  var jarjnumerot = localStorage.getItem('lajiteltu').substring(4).split("&div[]="); 		
+		  var $ul = $("#lowerpart");
+		  $items = $("#lowerpart").children();
+		
+		  for (var i = jarjnumerot.length - 1; i >= 0; i--) {
+			$ul.prepend( $items.get((jarjnumerot[i] - 1)));
+		  }
+		}
 		$( "#lowerpart" ).disableSelection();
 	});
 	
@@ -30,41 +45,41 @@ $( document ).ready(function() {
 	
 	
 	
-	 $(function() { //JQueryUI dialogin asetukset. Liittyy lisätietoikkunaan.
-    	$('#rinfo').dialog({
-            autoOpen: false,
-			maxWidth: 450,
-            maxHeight: 250,
-            width: 450,
-            height: 250,
-      		show: {
-        		effect: 'blind',
-        		duration: 200
-      		},
-      		hide: {
-        		effect: 'blind',
-        		duration: 200
-      		}
-    	});
-
-    	$('#lowerpart').on('click', 'a', function(e) {
-            var ytiedot = "";
-            
-            target = $(this).text();
-            
-            $('#rinfo').empty();
-            $('#rinfo').dialog("option", { position: [e.pageX+5, e.pageY+5] });
-            
-            $.ajax({url: "ravintolat.txt"}).done(function(data){
-                $.each($.parseJSON(data), function(idx, obj) {
-                            if (obj.nimi === target) { ytiedot = haeYhteystiedot( obj ); }
-                });
-                
-                $('#rinfo').append('<p>' + ytiedot + '</p>');	
-                $('#rinfo').dialog('open');
-            });
-    	})
+	  //JQueryUI dialogin asetukset. Liittyy lisätietoikkunaan.
+    $('#rinfo').dialog({
+    	autoOpen: false,
+		maxWidth: 450,
+        maxHeight: 250,
+        width: 450,
+        height: 250,
+      	show: {
+        	effect: 'blind',
+        	duration: 200
+      	},
+      	hide: {
+        	effect: 'blind',
+        	duration: 200
+      	}
     });
+
+    $('#lowerpart').on('click', 'a', function(e) {
+    	var ytiedot = "";
+            
+        target = $(this).text();
+            
+        $('#rinfo').empty();
+        $('#rinfo').dialog("option", { position: [e.pageX+5, e.pageY+5] });
+            
+        $.ajax({url: "ravintolat.txt"}).done(function(data){
+        	$.each($.parseJSON(data), function(idx, obj) {
+            	if (obj.nimi === target) { ytiedot = haeYhteystiedot( obj ); }
+            });
+                
+            $('#rinfo').append('<p>' + ytiedot + '</p>');	
+            $('#rinfo').dialog('open');
+           });
+    })
+    
     
     $("div").on('click', "span", function() { //Suosikkikeksit
         //alert($(this).text());
@@ -131,7 +146,7 @@ function haeMenu(paiva) {
     //alert(paivaclass);
     
     $(paivaclass).css("font-weight","bold");
-	
+	var i=0;
     $.ajax({url: "ravintolat.txt"}).done(function(data){
         $.each($.parseJSON(data), function(idx, obj) {
             
@@ -150,7 +165,7 @@ function haeMenu(paiva) {
                 });
 
                 $('#lowerpart').append(
-                        '<div class="menuwindow">\n\
+                        '<div class="menuwindow" id="div_'+i+'">\n\
                          <div class="menuwindowtop">\n\
                             <div title="Näytä lisätiedot" class="menuwindowtitle"><a href="#">' + obj.nimi + '</a></div>\n\
                             <div title="Lisää suosikkeihin" class="menuwindowfavourite"><span id="favourite-button" class="favourite-button '+keksiclass+'">' + obj.id + '</span></div>\n\
@@ -160,6 +175,7 @@ function haeMenu(paiva) {
                          <div class="menuwindowbottom">'+ obj.ketju     +'</div></div>'
                 );
                 menusisalto = "";
+				i++;
         });
     });
 }
