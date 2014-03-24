@@ -233,9 +233,19 @@ function haeRuoka(obj2){
     
     var menusisalto = "";
     var paivaruoka = "";
+    var price = "";
+    
+    
     
     $.each((obj2.ruoka), function(idx, obj3) {
-        paivaruoka = paivaruoka + '<div class="menufooditem">'  + obj3.title_fi    +'</div>';
+        
+        
+        if (obj3.price === undefined) {price = '';} else {price = obj3.price.substr(0,4);}
+        
+        paivaruoka = paivaruoka + '<div class="menufooditem">\n\
+                                        <div class="menufooditemfood">'  + obj3.title_fi    +'</div>\n\
+                                        <div class="menufooditemprice">'  + price    +'</div>\n\
+                                   </div>';
     });
 
     menusisalto = menusisalto + paivaruoka;

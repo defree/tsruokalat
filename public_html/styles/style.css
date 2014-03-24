@@ -201,7 +201,8 @@ body {
     background-color: #FFFFFF;
     font: 12px arial;
     color: #000000;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .favmenuwindowmiddle {
@@ -212,7 +213,7 @@ body {
 }
 
 .menuwindowbottom {
-
+    
     background-color: #447294;
     font: bold 16px arial;
     color: #FFFFFF;
@@ -220,12 +221,23 @@ body {
 }
 
 .menufooditem {
+    overflow:hidden;
     background-color: #ffffff;
     font: 14px arial;
     color: #000000;
     padding: 5px;
     border-bottom: 1px dashed #bbbbbb;
     
+}
+
+.menufooditemfood {
+    width:89%;
+    float:left;
+}
+
+.menufooditemprice {
+    width: 11%;
+    float:right;
 }
 
 .favourite-button {
