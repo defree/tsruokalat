@@ -15,7 +15,7 @@ $( document ).ready(function() {
 
     $(function() {  //Muuta ruokaikkunat liikutettaviksi
 		$( "#lowerpart" ).sortable();
-		$( "#lowerpart" ).on("sortupdate",function( event, ui ) {
+		$( "#lowerpart" ).on("sortupdate",function( event, ui ) { //Tässä tarkoituksen on säilöä sortablen tila localStorageen, jotta tila säilyy sivulatausten välissä. Ei kuitenkaan toimi odotetusti.
 			  var lajiteltu = $( this ).sortable( "serialize");
 			  console.log(lajiteltu);
 			  localStorage.setItem('lajiteltu', lajiteltu) ;
@@ -44,9 +44,7 @@ $( document ).ready(function() {
     });
 	
 	
-	
-	  //JQueryUI dialogin asetukset. Liittyy lisätietoikkunaan.
-    $('#rinfo').dialog({
+    $('#rinfo').dialog({ //JQueryUI dialogin asetukset. Liittyy lisätietoikkunaan.
     	autoOpen: false,
 		maxWidth: 450,
         maxHeight: 250,
@@ -62,7 +60,7 @@ $( document ).ready(function() {
       	}
     });
 
-    $('#lowerpart').on('click', 'a', function(e) {
+    $('#lowerpart').on('click', 'a', function(e) { //Infoikkunan näyttäminen
     	var ytiedot = "";
             
         target = $(this).text();
@@ -78,7 +76,7 @@ $( document ).ready(function() {
             $('#rinfo').append('<p>' + ytiedot + '</p>');	
             $('#rinfo').dialog('open');
            });
-    })
+    });
     
     
     $("div").on('click', "span", function() { //Suosikkikeksit
@@ -101,7 +99,6 @@ $( document ).ready(function() {
             cookies = cookies.replace(newcookie,""); //Poistetaan id keksistä jos se esiintyy siellä, aka suosikin poisto.
             $.cookie("fav", cookies);
         }
-
     });
     
     $('#suosikit').on('click', function(e) {
