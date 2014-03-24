@@ -70,18 +70,55 @@ body {
 }
 
 .kaikki {
-    padding-top: 5px;
+    padding-top: 2px;
     color: #ffffff;
     font: 14px arial;
 
 }
 
 .suosikki {
-    margin-top: 5px;    
+    margin-top: 2px;    
     color: #ffffff;
     font: 14px arial;
 
 }
+
+.teema {
+    margin-top: 7px;    
+    color: #ffffff;
+    font: 14px arial;
+
+}
+
+.box1 {
+    background-color: #ffffff;
+    height: 10px;
+    width: 10px;
+    padding: 4px;
+    float: left;
+    margin-left: 5px;
+}
+
+.bluebox {
+    background-color: #729fcf;
+    height: 10px;
+    width: 10px;
+
+
+}
+
+.redbox {
+    background-color: #e47297;
+    height: 10px;
+    width: 10px;
+}
+
+.greenbox {
+    background-color: #99CC99;
+    height: 10px;
+    width: 10px;
+}
+
 
 #lowerpart {
     background-color: #ffffff;
