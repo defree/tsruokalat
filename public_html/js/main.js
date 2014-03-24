@@ -82,19 +82,20 @@ $( document ).ready(function() {
             cookies = cookies.replace(newcookie,""); //Poistetaan id keksistä jos se esiintyy siellä, aka suosikin poisto.
             $.cookie("fav", cookies);
         }
-    });   
-});
-
-$( window ).load(function() { 
-
-    $('div.suosikit').on('click', function() {
+    });
+    
+    $('#suosikit').on('click', function(e) {
         
         var keksit = $.cookie("fav");
         
         $('#lowerpart').empty();
-        
-        haeMenu(paiva,keksit);
-        
+                
+        if($(e.target).hasClass('kaikki')){
+            haeMenu(paiva);
+        }
+        else{
+            haeSuosikkiMenu();
+        }
     }); 
 });
 
@@ -143,6 +144,44 @@ function haeMenu(paiva) {
                 menusisalto = "";
             
         });
+    });
+}
+
+function haeSuosikkiMenu() {
+
+    var keksit = $.cookie("fav");
+
+    if (keksit === undefined) {keksit = '';}
+
+    var tyhja = true;
+
+    $.ajax({url: "ravintolat.txt"}).done(function(data){
+        $.each($.parseJSON(data), function(idx, obj){
+            if(keksit.indexOf(obj.id) !== -1){
+                tyhja = false; // jos löytyi edes yksi suosikki
+                var newdiv = '<div class="favmenuwindow">\n\
+                            <div class="menuwindowtop">\n\
+                                <div class="menuwindowtitle"><a href="#">' + obj.nimi + '</a></div>\n\
+                                <div title="Lisää suosikkeihin" class="menuwindowfavourite"><span id="favourite-button" class="favourite-button icon-on">' + obj.id + '</span></div>\n\
+                                </div><div class="favmenuwindowmiddle"><table class="favmenutable">\n\
+                                <tr>';
+                $.each((obj.menu), function(idx, obj2) {
+                    newdiv += '<td style="font: 16px arial; font-weight: bold; color: #447294;">' + obj2.paiva + '</td>';
+                });
+                newdiv += '</tr>\n\
+                            <tr>';
+                $.each((obj.menu), function(idx, obj2) {
+                    newdiv += '<td><div class="menuwindowmiddle">' + haeRuoka(obj2) + '</div></td>';
+                });
+                newdiv += '</tr>\n\
+                            </table></div>\n\
+                            <div class="menuwindowbottom">' + obj.ketju + '</div></div>';
+                $('#lowerpart').append(newdiv);
+            }
+        });
+        if(tyhja){ // poistakaa tämä jos ärsyttää
+            alert("Et ole valinnut suosikkeja");
+        }
     });
 }
 
