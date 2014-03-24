@@ -117,11 +117,11 @@ $( document ).ready(function() {
         }
         else {
             haeMenu(paiva);
-            if($(e.target).hasClass('redbox')){
+            if($(e.target).hasClass('redbox') || $(e.target).children().hasClass('redbox')){
                 $('#upperpart').css("background","#e47297");
             
             }
-            else if($(e.target).hasClass('greenbox')){
+            else if($(e.target).hasClass('greenbox') || $(e.target).children().hasClass('greenbox')){
                 $('#upperpart').css("background","#99CC99");
             }
             else {
