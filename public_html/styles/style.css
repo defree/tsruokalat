@@ -24,7 +24,7 @@ body {
     background-color: #729fcf;
     width: 100%;
     height: 65px;
-    
+    overflow: hidden;
         
 }
 
@@ -35,8 +35,8 @@ body {
 }
 
 #paivat { 
-    padding-left: 100px;
-    float: left; 
+    padding-left: 20px;
+    float: left;
 }
 
 #paivat a:link {
@@ -61,7 +61,7 @@ body {
 
 #suosikit { 
     padding-right: 25px;
-    float: right; 
+    float: right;
 }
 
 #suosikit div:hover {
@@ -92,7 +92,7 @@ body {
 .menuwindow {
     margin: 15px;
     width: 250px;
-    height: 325px;
+    height: 323px;
     border-left: 2px solid #447294;
     border-right: 2px solid #447294;
     float: left;
