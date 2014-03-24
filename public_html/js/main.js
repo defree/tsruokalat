@@ -97,8 +97,21 @@ $( document ).ready(function() {
         if($(e.target).hasClass('kaikki')){
             haeMenu(paiva);
         }
-        else{
+        else if ($(e.target).hasClass('suosikki')){
             haeSuosikkiMenu();
+        }
+        else {
+            haeMenu(paiva);
+            if($(e.target).hasClass('redbox')){
+                $('#upperpart').css("background","#e47297");
+            
+            }
+            else if($(e.target).hasClass('greenbox')){
+                $('#upperpart').css("background","#99CC99");
+            }
+            else {
+                $('#upperpart').css("background","#729fcf");
+            }
         }
     }); 
 
